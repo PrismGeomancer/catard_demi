@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11100d">
+  <meta name="description" content="CATARD — nine lives, eight rugs, one last chance.">
+  <title>CATARD — One Life Left</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__mark">C<span>A</span>TARD</div>
+    <div class="loader__bar"><i></i></div>
+    <p>Counting remaining lives… <b id="loadCount">9</b></p>
+  </div>
+
+  <header class="nav" id="nav">
+    <a class="wordmark" href="#top" aria-label="CATARD home">CA<span>T</span>ARD</a>
+    <nav aria-label="Primary navigation">
+      <a href="#rugs">The rugs</a>
+      <a href="#city">The city</a>
+      <a href="#game">Last $500</a>
+    </nav>
+    <a class="nav__buy" href="#buy">Get $CATARD <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <img class="hero__image" src="Grass.png" alt="CATARD lying in grass after eight disastrous crypto bets">
+      <div class="hero__shade"></div>
+      <div class="hero__copy">
+        <p class="eyebrow">A tragedy in nine parts</p>
+        <h1>NINE LIVES.<br><em>EIGHT RUGS.</em><br>ONE LEFT.</h1>
+        <div class="hero__footer">
+          <p>He didn't learn. He didn't sell.<br>He did make a community.</p>
+          <a class="round-link" href="#story" aria-label="Enter CATARD's story">↓</a>
+        </div>
+      </div>
+      <div class="hero__ticker" aria-hidden="true">
+        <div>BUY HIGH · PANIC LOW · BLAME THE DEV · NINE LIVES · ZERO STOP LOSSES ·&nbsp;</div>
+        <div>BUY HIGH · PANIC LOW · BLAME THE DEV · NINE LIVES · ZERO STOP LOSSES ·&nbsp;</div>
+      </div>
+    </section>
+
+    <section class="intro" id="story">
+      <div class="section-no">01 / ORIGIN STORY</div>
+      <div class="intro__grid">
+        <div class="intro__portrait art-slot" data-art-slot="character-primary">
+          <img src="Main_image.png" alt="CATARD, the chronically rugged cat, beside his battered car">
+          <span class="tape">LOCAL MENACE</span>
+          <span class="portrait__stamp">8×<small>RUGGED</small></span>
+        </div>
+        <div class="intro__copy">
+          <p class="kicker">Meet the survivor</p>
+          <h2>TOO DUMB<br>TO <span>DIE.</span></h2>
+          <p class="lede">CATARD is a cat with a terminal case of conviction. He aped into eight “can’t miss” coins. He missed every time.</p>
+          <p>Now he’s down to his ninth life, his last $500, and one deeply questionable plan: build the coin nobody can rug—because the rug has already happened.</p>
+          <dl class="stats">
+            <div><dt>8</dt><dd>Rugs survived</dd></div>
+            <div><dt>$0</dt><dd>Lessons learned</dd></div>
+            <div><dt>1</dt><dd>Life remaining</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="rugs" id="rugs">
+      <div class="section-head">
+        <div class="section-no">02 / THE PREVIOUS LIVES</div>
+        <h2>THE EIGHT<br><span>RUGS.</span></h2>
+        <p>Every scar has a ticker. Drag the evidence.</p>
+      </div>
+      <div class="rug-track art-slot" id="rugTrack" data-art-slot="eight-rug-case-art" aria-label="CATARD's eight previous lives">
+        <article class="rug-card"><b>01</b><span class="rug-icon">◉</span><h3>$MILK</h3><p>“Passive yield.” The cow was imaginary.</p><small>-97.4%</small></article>
+        <article class="rug-card"><b>02</b><span class="rug-icon">◇</span><h3>$LASER</h3><p>The roadmap was just a JPEG of a road.</p><small>-99.1%</small></article>
+        <article class="rug-card"><b>03</b><span class="rug-icon">✦</span><h3>$MOON</h3><p>Never left the basement.</p><small>-94.8%</small></article>
+        <article class="rug-card"><b>04</b><span class="rug-icon">⌁</span><h3>$FISH</h3><p>Liquidity swam away overnight.</p><small>-100%</small></article>
+        <article class="rug-card"><b>05</b><span class="rug-icon">△</span><h3>$TOWER</h3><p>Built different. Fell the same.</p><small>-98.6%</small></article>
+        <article class="rug-card"><b>06</b><span class="rug-icon">◎</span><h3>$YARN</h3><p>Tokenomics got tangled.</p><small>-96.2%</small></article>
+        <article class="rug-card"><b>07</b><span class="rug-icon">✣</span><h3>$NIP</h3><p>He saw colors for three days.</p><small>-99.9%</small></article>
+        <article class="rug-card rug-card--last"><b>08</b><span class="rug-icon">×</span><h3>$TRUST</h3><p>The dev said “trust me.”</p><small>-∞%</small></article>
+      </div>
+      <div class="track-control"><span>01</span><div><i id="trackProgress"></i></div><span>08</span></div>
+    </section>
+
+    <section class="city" id="city">
+      <div class="city__top">
+        <div>
+          <div class="section-no">03 / CATARD CITY</div>
+          <h2>WELCOME TO<br>THE <em>WRONG</em><br>SIDE OF THE<br>CHAIN.</h2>
+        </div>
+        <p>A living map of bad decisions. Every corner holds a clue, a character, or an unlocked slot for the next piece of CATARD lore.</p>
+      </div>
+      <div class="map art-slot" data-art-slot="city-map">
+        <svg viewBox="0 0 1200 650" role="img" aria-label="Stylized map of CATARD city">
+          <path class="road" d="M-40 160C180 90 257 287 457 212S703 38 819 180s91 287 421 208"/>
+          <path class="road thin" d="M167-20c20 177 38 259 134 350s161 159 148 342M694-40c-52 154-49 258 51 341s166 146 179 389"/>
+          <path class="road thin" d="M-30 502c205-90 323-66 482-17s345 17 776 83"/>
+        </svg>
+        <button class="pin pin--1 active" data-location="The Liquidation Laundromat" data-note="Where positions—and dignity—go to spin."><i></i><span>01<br>LIQUIDATION<br>LAUNDROMAT</span></button>
+        <button class="pin pin--2" data-location="Neon Alley" data-note="Open all night. Audited never."><i></i><span>02<br>NEON ALLEY</span></button>
+        <button class="pin pin--3" data-location="Diamond Paws Capital" data-note="A fund with no capital and one folding chair."><i></i><span>03<br>DIAMOND PAWS</span></button>
+        <button class="pin pin--4" data-location="The Dead Cat Bounce" data-note="Drinks are cheap. Copium is complimentary."><i></i><span>04<br>DEAD CAT BOUNCE</span></button>
+        <div class="map__readout"><small>NOW VIEWING</small><strong id="mapTitle">The Liquidation Laundromat</strong><p id="mapNote">Where positions—and dignity—go to spin.</p></div>
+      </div>
+    </section>
+
+    <section class="life-nine art-slot" id="life9" data-art-slot="life-nine-environment">
+      <div class="life-nine__number">9</div>
+      <div class="life-nine__copy">
+        <div class="section-no">04 / THE FINAL LIFE</div>
+        <h2>NO MORE<br>RESETS.</h2>
+        <p>The first eight lives were tuition. Life nine is the thesis: no fake utility, no messiah founder, no promise of “generational wealth.” Just a cat, a coin, and everyone who has ever held a bag to zero.</p>
+        <div class="principles">
+          <span>NO PRESALE</span><span>NO TAX</span><span>NO DIGNITY</span><span>100% CAT</span>
+        </div>
+      </div>
+      <div class="life-nine__orbit" aria-hidden="true"><span>LAST LIFE · LAST LIFE · LAST LIFE ·</span></div>
+    </section>
+
+    <section class="game" id="game">
+      <div class="game__copy">
+        <div class="section-no">05 / BAD DECISION SIMULATOR</div>
+        <h2>THE LAST<br><span>$500.</span></h2>
+        <p>You’ve got one life and five hundred bucks. The chart is moving. Your group chat says send it.</p>
+        <p class="game__question">What does CATARD do?</p>
+      </div>
+      <div class="phone art-slot" data-art-slot="last-500-game-art" aria-label="Last 500 dollar mini-game">
+        <div class="phone__top"><span>9:41</span><b>LAST WALLET</b><span>●●●</span></div>
+        <div class="balance"><small>AVAILABLE</small><strong id="balance">$500.00</strong><span>USD</span></div>
+        <div class="chart" id="chart"><svg viewBox="0 0 500 180" preserveAspectRatio="none"><path class="chart__fill" d="M0 150 L45 135 82 146 126 110 175 121 215 64 263 81 310 38 359 61 410 18 500 42 V180 H0Z"/><path class="chart__line" d="M0 150 L45 135 82 146 126 110 175 121 215 64 263 81 310 38 359 61 410 18 500 42"/></svg><i id="chartDot"></i></div>
+        <div class="allocation"><span>AMOUNT</span><b id="betAmount">$500</b></div>
+        <input id="betRange" type="range" min="50" max="500" value="500" step="50" aria-label="Investment amount">
+        <div class="game__actions">
+          <button id="keepBtn">KEEP CASH</button>
+          <button class="ape" id="apeBtn">APE IN →</button>
+        </div>
+        <div class="game__result" id="gameResult" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="autopsy" id="autopsy">
+      <div class="autopsy__heading">
+        <div class="section-no">06 / WALLET AUTOPSY</div>
+        <h2>CAUSE OF DEATH:<br><span>UNSHAKEABLE BELIEF.</span></h2>
+      </div>
+      <div class="terminal art-slot" data-art-slot="wallet-autopsy-art">
+        <div class="terminal__bar"><span></span><span></span><span></span><b>WALLET_FORENSICS.EXE</b><small>CASE #0009</small></div>
+        <div class="terminal__body">
+          <div class="scan">
+            <div class="scan__cat" aria-hidden="true">/\_/\\<br>( o.o )<br>&nbsp;&gt; ^ &lt;</div>
+            <div class="scan__ring"></div>
+            <p>SUBJECT: CATARD<br>STATUS: SOMEHOW ONLINE</p>
+          </div>
+          <div class="ledger">
+            <div><span>ENTRY</span><span>ASSET</span><span>OUTCOME</span></div>
+            <div><span>00:14:22</span><b>8 DEAD BAGS</b><em>TERMINAL</em></div>
+            <div><span>03:09:01</span><b>RENT MONEY</b><em>DEPLOYED</em></div>
+            <div><span>04:20:69</span><b>$CATARD</b><em class="green">ALIVE</em></div>
+            <p>&gt; diagnosis: chronic diamond paws<br>&gt; treatment: touch grass<br>&gt; patient refused<span class="cursor">_</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="community" id="community">
+      <div class="community__rings" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="community__copy">
+        <div class="section-no">07 / THE STRAYS</div>
+        <p class="kicker">We have nine lives collectively</p>
+        <h2>COME FOR<br>THE MEME.<br><span>STAY BECAUSE<br>YOU’RE DOWN 80%.</span></h2>
+        <p>No alpha. No experts. Just thousands of emotionally overleveraged cats building something too stubborn to disappear.</p>
+        <div class="socials"><a href="#" aria-label="CATARD on X">X / TWITTER ↗</a><a href="#" aria-label="CATARD on Telegram">TELEGRAM ↗</a></div>
+      </div>
+      <div class="chat-stack art-slot" data-art-slot="community-art" aria-label="Community messages">
+        <div class="chat"><b>9LIVESLEFT</b><span>11:38</span><p>who bought the top</p></div>
+        <div class="chat right"><b>CATDAD_88</b><span>11:38</span><p>we are the top</p></div>
+        <div class="chat"><b>RUGSURVIVOR</b><span>11:39</span><p>still here. unfortunately.</p></div>
+        <div class="chat right acid"><b>CATARD</b><span>11:40</span><p>life 9 starts now.</p></div>
+      </div>
+    </section>
+
+    <section class="final art-slot" id="buy" data-art-slot="final-cta-environment">
+      <div class="final__marquee"><span>DON’T WASTE YOUR LAST LIFE · DON’T WASTE YOUR LAST LIFE · </span><span>DON’T WASTE YOUR LAST LIFE · DON’T WASTE YOUR LAST LIFE · </span></div>
+      <div class="final__center">
+        <p class="eyebrow">CA: 000000000000000000000000</p>
+        <h2>STILL<br><span>HOLDING?</span></h2>
+        <a href="#" class="buy-button">BUY $CATARD <i>↗</i></a>
+        <button class="copy-ca" id="copyCa" data-address="000000000000000000000000">COPY CONTRACT</button>
+      </div>
+      <footer><a class="wordmark" href="#top">CA<span>T</span>ARD</a><p>© 2026 CATARD. No financial advice.<br>Obviously.</p><a href="#top">BACK TO TOP ↑</a></footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
